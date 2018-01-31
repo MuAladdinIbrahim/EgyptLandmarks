@@ -48,6 +48,18 @@
 
         <!-- Q&A 1 -->
 
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16"
+         >
+
+
         <TextView
             android:id="@+id/Which_airport"
             style="@style/Question"
@@ -84,6 +96,8 @@
                 android:onClick="onRadioButtonClickedQ1"
                 android:text="@string/Madrid" />
         </RadioGroup>
+    </LinearLayout>
+
 
         <View
             android:layout_width="match_parent"
@@ -93,6 +107,15 @@
             android:background="@color/colorView" />
 
         <!--Q&A 2 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ2"
@@ -119,6 +142,7 @@
             android:id="@+id/checkbox2d"
             style="@style/Answer"
             android:text="@string/Red_sea" />
+    </LinearLayout>
 
         <!-- between -->
         <View
@@ -130,6 +154,15 @@
 
 
         <!--Q&A 3 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ3"
@@ -157,6 +190,7 @@
             android:id="@+id/checkbox3d"
             style="@style/Answer"
             android:text="@string/London" />
+    </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -166,7 +200,17 @@
             android:background="@color/colorView" />
 
 
+
         <!--Q&A 4 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ4"
@@ -212,6 +256,8 @@
                 android:text="@string/pyramids" />
         </RadioGroup>
 
+    </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/height2"
@@ -220,6 +266,15 @@
             android:background="@color/colorView" />
 
         <!--Q5 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ5"
@@ -237,6 +292,8 @@
             android:id="@+id/edittext1"
             style="@style/AnswerEdit" />
 
+    </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/height2"
@@ -246,6 +303,15 @@
 
 
         <!--Q6 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ6"
@@ -263,6 +329,8 @@
             android:id="@+id/edittext2"
             style="@style/AnswerEdit" />
 
+    </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/height2"
@@ -271,6 +339,15 @@
             android:background="@color/colorView" />
 
         <!--Q&A 7 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
 
         <TextView
             android:id="@+id/textViewQ5w"
@@ -315,6 +392,7 @@
                 android:onClick="onRadioButtonClickedQ7"
                 android:text="@string/Baharia" />
         </RadioGroup>
+    </LinearLayout>
 
         <View
             android:layout_width="match_parent"
@@ -324,6 +402,15 @@
             android:background="@color/colorView" />
 
         <!--Q&A 8 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottom10"
+        android:layout_marginTop="@dimen/marginTop10"
+        android:background="@drawable/custom_rectangle"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_16">
+
 
         <TextView
             android:id="@+id/textViewQ8"
@@ -368,7 +455,7 @@
                 android:onClick="onRadioButtonClickedQ8"
                 android:text="@string/hakim" />
         </RadioGroup>
-
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
