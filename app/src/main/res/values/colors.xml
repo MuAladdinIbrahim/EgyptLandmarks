@@ -5,6 +5,7 @@
     <color name="colorAccent">#ea3e09</color>
     <color name="colorView">#E040FB</color>
     <color name="colorButton">#e99344</color>
-
+    <color name="questionBackground">#46ffffff</color>
+    <color name="colorQ">#000000</color>
 
 </resources>
