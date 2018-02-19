@@ -9,6 +9,9 @@
     <dimen name="marginTop24">24dp</dimen>
     <dimen name="marginRight18">18dp</dimen>
     <dimen name="marginLeft18">18dp</dimen>
+    
+    <dimen name="padding_16">16dp</dimen>
+
 
 
     <dimen name="textSize20">20sp</dimen>
@@ -18,6 +21,8 @@
 
     <dimen name="marginBottom48">48dp</dimen>
     <dimen name="marginBottom24">24dp</dimen>
+    <dimen name="marginBottom10">10dp</dimen>
+    <dimen name="marginTop10">10dp</dimen>
 
     <dimen name="marginTop55">55dp</dimen>
     <dimen name="marginTop40">40dp</dimen>
